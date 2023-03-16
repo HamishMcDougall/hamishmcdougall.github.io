@@ -1,0 +1,16 @@
+{
+  "name": "hamish-folio",
+  "version": "1.0.0",
+  "description": "The folio of Hamish McDougall",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "author": "",
+  "license": "ISC"
+}
