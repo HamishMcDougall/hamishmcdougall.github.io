@@ -47,26 +47,15 @@
 
 </head>
 
-<body>
+<body>			
 
-
+	<div id="fh5co-portfolio">
   <form>
     <label for="pswd">Enter your password: </label>
     <input type="password" id="pswd">
     <input type="button" value="Submit" onclick="checkPswd();" />
 </form>
-<!--Function to check password the already set password is admin-->
-<script type="text/javascript">
-    function checkPswd() {
-        var confirmPassword = "hello";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="indexw.html";
-        }
-        else{
-            alert("Passwords do not match.");
-        }
-    }
+</div>
 
 
 		<div class="container">
@@ -113,6 +102,22 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
+
+
+<script type="text/javascript">
+	function checkPswd() {
+			var confirmPassword = "Hello";
+			var password = document.getElementById("pswd").value;
+			if (password == confirmPassword) {
+					 window.location="indexw.html";
+			}
+			else{
+					alert("Passwords do not match.");
+			}
+	}
+
+</script>
+
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
