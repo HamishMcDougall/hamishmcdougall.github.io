@@ -49,176 +49,26 @@
 
 <body>
 
-	<div class="fh5co-loader"></div>
 
-	<div id="page">
-		<nav class="fh5co-nav" role="navigation">
-			<div class="container">
-				<div class="top-menu">
-					<div class="row">
-						<div class="col-sm-2">
-							<div id="fh5co-logo"><a href="index.html">Hamish McDougall<span>.</span></a></div>
-						</div>
-						<div class="col-sm-10 text-right menu-1">
-							<ul>
-								<li class=""><a href="about.html">About</a></li>
-								<li class="active"><a href="index.html">Projects</a>
-								<!-- <li class="has-dropdown"><a href="index.html">Projects</a>
-									<ul class="dropdown">
-										<li><a href="#">Infrastructure</a></li>
-										<li><a href="#">Residential</a></li>
-										<li><a href="#">Environmental</a></li>
-										<li><a href="#">Megabuilders</a></li>
-									</ul>
-								</li> -->
-							</ul>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</nav>
-		<div class="container">
-			<div id="fh5co-intro">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 col-md-pull-2">
-						<h2 class="bold">Experience design leader &amp; product design specialist<span class="dot" style="font-size: 40px !important;">.</span></h2>
-					</div>
-				</div>
-			</div>
-
-			<!-- <aside id="fh5co-hero">
-				<div class="flexslider">
-					<ul class="slides">
-						<li style="background-image: url(images/img_bg_1.jpg);">
-							<div class="overlay"></div>
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-md-6 col-xs-8 col-md-offset-1 slider-text">
-										<div class="slider-text-inner">
-											<h1><a href="#">Best showcase for architecture</a></h1>
-											<h2>Free html5 templates Made by <a href="http://freehtml5.co/"
-													target="_blank">freehtml5.co</a></h2>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
+  <form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "hello";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="indexw.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
 
 
-
-					</ul>
-				</div>
-			</aside> -->
-			<div id="fh5co-portfolio">
-				<div class="row nopadding">
-					<div class="col-md-6 padding-right">
-						<div class="row">
-							<div class="col-md-12 animate-box">
-								<a href="projects/sonsofcrypto.html" class="portfolio-grid">
-									<img src="projects/sonsofcrypto/SOC-promo-Image.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Sons of Crypto </h3>
-										<span>Web3 Wallet - Branding - Mobile App - Website</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/RetailMap.html" class="portfolio-grid">
-									<img src="images/portfolio-2-RetailJourneyMap.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Retail Customer Journey Map</h3>
-										<span>Mapping TAL's customers' goals across their retail insurance journey and how they would describe success.</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/SalesPortal.html" class="portfolio-grid">
-									<img src="images/portfolio-4-SalesPortal.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Mid-market - Sales Portal</h3>
-										<span>100% digital portal - enabling TAL sales agents to complete customers’ requests and purchases.</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/Virtual-C-Room.html" class="portfolio-grid">
-									<img src="images/portfolio-5-VirtualCustomerRoom.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Virtual Customer Room</h3>
-										<span>A digital customer toolkit – that’s secure, highly-functional, contains an encyclopedia of customer knowledge.</span>
-									</div>
-								</a>
-							</div>
-			
-
-						</div>
-					</div>
-
-					<div class="col-md-6 padding-left">
-						<div class="row">
-							<div class="col-md-12 animate-box">
-								<a href="./projects/UOM-overview.html" class="portfolio-grid">
-									<img src="./projects/UOM/UoM-CoverImage.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>University of Melbourne</h3>
-										<span>Projects overview</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/CoverBuilder.html" class="portfolio-grid">
-									<img src="images/portfolio-1-MidMarket.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Cover builder</h3>
-										<span>100% digital, multi-channel life insurance sales platform, with integrated customer touch points across all parts of the customer journey.</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/TAC.html" class="portfolio-grid">
-									<img src="images/portfolio-7-TAC.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>TAL Adviser Centre - TAC</h3>
-										<span>SaaS platform redesig from a single policy data heavy platform into a multi-product platform with a single customer view.</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/DigitalAdviser.html" class="portfolio-grid">
-									<img src="images/portfolio-3-DigitalAdviser.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Digital Adviser</h3>
-										<span>SaaS platform that helped insurance advisers: Find and manage quality leads and appointments.</span>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-12 animate-box">
-								<a href="projects/FactFind.html" class="portfolio-grid">
-									<img src="images/portfolio-6-FactFind.jpg" class="img-responsive"
-										alt="Folio Main Image">
-									<div class="desc">
-										<h3>Fact Find / Client Discovery Online</h3>
-										<span>SaaS platform that reduces the time for advisers to collect multiple customer data.</span>
-									</div>
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- END container -->
-
-		
 		<div class="container">
 			<footer id="fh5co-footer" role="contentinfo">
 				<div class="row">
@@ -228,23 +78,14 @@
 							</p>
 					</div>
 					<div class="col-md-3 col-md-push-1">
-						<h4>Projects<span class="dot">.</span></h4>
-						<ul class="fh5co-footer-links">
-							<li><a href="projects/CoverBuilder.html">Mid-market - Cover Builder</a></li>
-							<li><a href="projects/SalesPortal.html">Mid-market - Sales Portal</a></li>
-							<li><a href="projects/TAC.html">TAL Adviser Centre - TAC</a></li>
-							<li><a href="projects/RetailMap.html">Retail Customer Journey Map</a></li>
-							<li><a href="projects/DigitalAdviser.html">Digital Adviser</a></li>
-							<li><a href="projects/FactFind.html">Fact Find / Client Discovery Online</a></li>
-							<li><a href="projects/Virtual-C-Room.html">Virtual Customer Room</a></li>
-						</ul>
+	
 					</div>
 
 					<div class="col-md-3 col-md-push-1">
 						<h4>Links<span class="dot">.</span></h4>
 						<ul class="fh5co-footer-links">
 							<li><a href="about.html">About</a></li>
-							<li><a href="index.html">Projects</a></li>
+							<li><a href="indexw.hml">Projects</a></li>
 						</ul>
 					</div>
 
