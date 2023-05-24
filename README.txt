@@ -1,13 +1,7 @@
 
-TITLE: 
-Architect - 100% Fully Responsive Free HTML5 Bootstrap Template
-
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+Hamish McDougall
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
 
 
 CREDITS:
@@ -45,6 +39,4 @@ http://flexslider.woothemes.com/
 Sticky Kit
 http://leafo.net/sticky-kit/
 
-Demo Images:
-http://unsplash.com
 
